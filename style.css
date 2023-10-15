@@ -1,0 +1,123 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: slategray;
+    font-size: 32px;
+    color: wheat;
+}
+.your-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orangered;
+    font-size: 36px;
+    color: whitesmoke;
+    width: 90vw;
+}
+.buildings-select {
+    font-size: 32px;
+    color: antiquewhite;
+    background-color: gray;
+}
+.main-block {
+    display: flex;
+    position: relative;
+    height: 700px;
+    width: 90vw;
+    gap: 10px;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: brown;
+}
+.elevator {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 300px;
+    height: 90%;
+    background-color: darkolivegreen;
+    border: 1px solid yellow;
+}
+.elevator-doors {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 90%;
+    justify-self: center;
+    align-self: flex-end;
+    background-color: gray;
+    border: 1px solid yellow;
+    align-items: center;
+}
+.elevator-main-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.elevator-info-panel {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: red;
+    background-color: darkblue;
+    width: 50%;
+    border: 2px solid brown;
+}
+.elevator-info-down {
+    transform: rotate(180deg);
+}
+.elevator-info-down{
+}
+.elevator-info img {
+    width: 24px;
+    height: 24px;
+}
+.elevator-control-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    align-self: center;
+    background-color: silver;
+    border: 1px solid yellow;
+}
+.elevator-control-panel-button {
+    background-color: red;
+    border-radius: 50%;
+    border: 1px solid coral;
+    width: 10px;
+    height: 10px;
+}
+.elevator-left-door {
+    height: 98%;
+    width: 50%;
+    background-color: brown;
+    border: 1px solid yellow;
+}
+.elevator-right-door {
+    height: 98%;
+    width: 50%;
+    background-color: firebrick;
+    border: 1px solid yellow;
+}
+.are-you-not-good {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 76px !important;
+    color: orange !important;
+    font-weight: bolder !important;
+    align-self: center !important;
+}
+.neon {
+    font-size: 92px !important;
+    background: -webkit-linear-gradient(orange, orangered, green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
