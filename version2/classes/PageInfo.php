@@ -27,7 +27,7 @@ class PageInfo
         $maxFloors = range($minFloorsRange, $maxFloorsRange);
         $options = "";
         foreach ($maxFloors as $floorNumber) {
-            $options .= '<option value="'.$floorNumber.'">'.$floorNumber.'</option>';
+            $options .= '<option value="'.$floorNumber.'">'.$floorNumber .'</option>';
         }
         $floorsSetupInfo = '<div class="setup-block">
             <div>Выбери колличество этажей от '. $minFloorsRange .' до ' . $maxFloorsRange . '</div>
@@ -40,14 +40,14 @@ class PageInfo
     public static function infoInitWeightLimitsSetup()
     {
         $minPeoplesRange = 2;
-        $maxPeoplesRange = 9;
+        $maxPeoplesRange = 8;
         $maxPeoples = range($minPeoplesRange, $maxPeoplesRange);
         $options = "";
         foreach ($maxPeoples as $iPeoples) {
             $options .= '<option value="'.$iPeoples.'">'.$iPeoples.'</option>';
         }
         $weightLimitsInfo = '<div class="setup-block">
-            <div>Выбери грузоподьемность  от ' . $minPeoplesRange .' до '. $maxPeoplesRange.' людей</div>
+            <div>Выбери грузоподьемность  от ' . $minPeoplesRange .' до '. $maxPeoplesRange .' людей</div>
             <select class="weight-limits-select weight-limits-select-js" name="weight-limits-select" id="weight-limits-select">'
             .$options.
             '</select>
